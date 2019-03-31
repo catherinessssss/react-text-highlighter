@@ -1,0 +1,30 @@
+{
+  "name": "@catherinessssss/react-text-highlighter",
+  "version": "1.0.0",
+  "description": "Highlight the match text",
+  "license": "MIT",
+  "repository": "catherinessssss/react-text-highlighter",
+  "keywords": [
+    "react",
+    "highlighter",
+    "typescript",
+    "npm",
+    "package",
+    "catherine"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html --port 8080",
+    "build": "rm -rf dist/* && parcel build src/index.html --no-source-maps --no-cache"
+  },
+  "dependencies": {
+    "@catherinessssss/react-text-highlighter": "^1.0.0",
+    "classnames": "^2.2.6",
+    "jss": "^9.8.7",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}
