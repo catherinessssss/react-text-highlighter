@@ -1,6 +1,6 @@
 {
   "name": "@catherinessssss/react-text-highlighter",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "description": "Highlight the match text",
   "license": "MIT",
   "repository": "catherinessssss/react-text-highlighter",
@@ -12,12 +12,14 @@
     "package",
     "catherine"
   ],
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
   "scripts": {
-    "start": "parcel src/index.html --port 8080",
-    "build": "rm -rf dist/* && parcel build src/index.html --no-source-maps --no-cache"
+    "start": "parcel index.tsx --port 8080",
+    "build": "rm -rf dist/* && parcel build index.tsx --no-source-maps --no-cache"
   },
   "dependencies": {
-    "@catherinessssss/react-text-highlighter": "^1.0.0",
     "classnames": "^2.2.6",
     "jss": "^9.8.7",
     "parcel": "^1.12.3",
