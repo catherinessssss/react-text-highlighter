@@ -1,9 +1,13 @@
 {
   "name": "@catherinessssss/react-text-highlighter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Highlight the match text",
   "license": "MIT",
-  "repository": "catherinessssss/react-text-highlighter",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "catherinessssss/react-text-highlighter"
+  },
   "keywords": [
     "react",
     "highlighter",
@@ -16,17 +20,26 @@
     "react": "^16.8.6"
   },
   "scripts": {
-    "start": "parcel index.tsx --port 8080",
-    "build": "rm -rf dist/* && parcel build index.tsx --no-source-maps --no-cache"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "jss": "^9.8.7",
     "parcel": "^1.12.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "webpack": "^4.30.0"
   },
   "devDependencies": {
-    "typescript": "^3.4.1"
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "tslint-react-hooks": "^2.0.0",
+    "typescript": "^3.4.1",
+    "webpack-cli": "^3.3.0"
   }
 }
