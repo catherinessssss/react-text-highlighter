@@ -1,6 +1,6 @@
 <img src="./static/logo.jpeg">
 
-[![npm (scoped)](https://img.shields.io/badge/npm-v.1.0.3-brightgreen.svg)](https://github.com/catherinessssss/react-text-highlighter)
+[![npm (scoped)](https://img.shields.io/badge/npm-v.1.0.4-brightgreen.svg)](https://github.com/catherinessssss/react-text-highlighter)
 
 
 Highlight the match text
@@ -20,7 +20,7 @@ import Highlighter from "@catherinessssss/react-text-highlighter";
 
 <Highlighter
   searchWord="hi"
-  wholeWord="hihi2hi"
+  wholeText="hihi2hi"
 />
 
 ```
