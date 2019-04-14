@@ -22,7 +22,8 @@ const Highlighter: React.FunctionComponent<IProps> = ({
     root,
   } = classes;
 
-  const generateText = React.useMemo(() => {
+  const generateText = () => {
+    // const generateText = React.useMemo(() => {
     if (!!searchWord) {
       const flags = caseSensitive ? "g" : "gi";
       const regExp = new RegExp(searchWord, flags);
@@ -44,12 +45,13 @@ const Highlighter: React.FunctionComponent<IProps> = ({
       }
     }
     return wholeText;
-  }, [caseSensitive, searchWord, wholeText]);
+    // }, [caseSensitive, searchWord, wholeText]);
+  };
 
 
   return (
     <div className={root}>
-      {generateText}
+      {generateText()}
     </div>
   )
 }
