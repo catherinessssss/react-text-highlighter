@@ -1,6 +1,6 @@
 {
   "name": "@catherinessssss/react-text-highlighter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Highlight the match text",
   "license": "MIT",
   "main": "build/index.js",
