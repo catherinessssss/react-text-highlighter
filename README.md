@@ -1,6 +1,6 @@
 <img src="./static/logo.jpeg">
 
-[![npm (scoped)](https://img.shields.io/badge/npm-v.1.0.2-brightgreen.svg)](https://github.com/catherinessssss/react-text-highlighter)
+[![npm (scoped)](https://img.shields.io/badge/npm-v.1.0.3-brightgreen.svg)](https://github.com/catherinessssss/react-text-highlighter)
 
 
 Highlight the match text
